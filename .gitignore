@@ -1,0 +1,8 @@
+/target
+/log
+/.vscode
+Cargo.lock
+/.vs
+/SettingConfig.xml
+/SettingConfig.xml
+*.xml

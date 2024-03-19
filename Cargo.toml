@@ -1,0 +1,24 @@
+[package]
+name = "gw808"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#jt808 = { path = "../rsbase/jt808" }
+#jt1078 = { path = "../rsbase/jt1078" }
+#jt_util = { path = "../rsbase/jt_util" }
+jt808 ="0.1.1"
+jt1078 ="0.1"
+jt_util ="0.1.1"
+tokio={version="1", features = ["full"]}
+tokio-util = { version = "0.6", features = ["codec"] }
+axum = "0.6"
+futures= "0.3"
+bytes="1"
+serde = { version = "1", features = ["derive"] }
+serde-xml-rs = "0.6"
+log = "0.4"
+log4rs = "1"
+regex = "1.10.2"

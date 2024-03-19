@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfigModel>
+<address_device>0.0.0.0:9300</address_device>
+<address_http>0.0.0.0:20889</address_http>
+<address_forward>0.0.0.0:20223</address_forward>
+</ConfigModel>
